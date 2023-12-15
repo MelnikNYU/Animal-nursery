@@ -20,28 +20,28 @@ _________
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 
-mn@hp-gb:~$ mkdir Animals
-mn@hp-gb:~$ cd ~/Animals
-mn@hp-gb:~/Animals$ cat > pets
-mn@hp-gb:~/Animals$ cat > pack_animals
-mn@hp-gb:~/Animals$ cat pets pack_animals > animals
-mn@hp-gb:~/Animals$ mv animals mans_friends
-mn@hp-gb:~/Animals$ mn@hp-gb:~/Animals$ ls -ali
+- mn@hp-gb:~$ mkdir Animals
+- mn@hp-gb:~$ cd ~/Animals
+- mn@hp-gb:~/Animals$ cat > pets
+- mn@hp-gb:~/Animals$ cat > pack_animals
+- mn@hp-gb:~/Animals$ cat pets pack_animals > animals
+- mn@hp-gb:~/Animals$ mv animals mans_friends
+- mn@hp-gb:~/Animals$ mn@hp-gb:~/Animals$ ls -ali
 
 ![](https://github.com/MelnikNYU/Animal-nursery/blob/main/1.png) 
 
 2. Создать директорию, переместить файл туда.
-- 'mn@hp-gb:~/Animals$ mn@hp-gb:~/Animals$ cd ..'
+- mn@hp-gb:~/Animals$ mn@hp-gb:~/Animals$ cd ..
 - mn@hp-gb:~$ mkdir Animalss
 - mn@hp-gb:~$ cd ~/Animals
-mn@hp-gb:~/Animals$ mv mans_friends ~/Animalss
-mn@hp-gb:~/Animals$ cd ~/Animalss
-mn@hp-gb:~/Animalss$ ls -ali
-итого 12
-581637 drwxrwxr-x  2 mn mn 4096 дек 15 22:24 .
-528864 drwxr-x--- 24 mn mn 4096 дек 15 22:21 ..
-529265 -rw-rw-r--  1 mn mn   76 дек 15 22:01 mans_friends
-mn@hp-gb:~/Animalss$
+- mn@hp-gb:~/Animals$ mv mans_friends ~/Animalss
+- mn@hp-gb:~/Animals$ cd ~/Animalss
+- mn@hp-gb:~/Animalss$ ls -ali
+- итого 12
+- 581637 drwxrwxr-x  2 mn mn 4096 дек 15 22:24 .
+- 528864 drwxr-x--- 24 mn mn 4096 дек 15 22:21 ..
+- 529265 -rw-rw-r--  1 mn mn   76 дек 15 22:01 mans_friends
+- mn@hp-gb:~/Animalss$
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 4. Установить и удалить deb-пакет с помощью dpkg.
