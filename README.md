@@ -26,12 +26,12 @@ _________
 - mn@hp-gb:~/Animals$ cat > pack_animals
 - mn@hp-gb:~/Animals$ cat pets pack_animals > animals
 - mn@hp-gb:~/Animals$ mv animals mans_friends
-- mn@hp-gb:~/Animals$ mn@hp-gb:~/Animals$ ls -ali
+- mn@hp-gb:~/Animals$ ls -ali
 
 ![](https://github.com/MelnikNYU/Animal-nursery/blob/main/1.png) 
 
 2. Создать директорию, переместить файл туда.
-- mn@hp-gb:~/Animals$ mn@hp-gb:~/Animals$ cd ..
+- mn@hp-gb:~/Animals$ cd ..
 - mn@hp-gb:~$ mkdir Animalss
 - mn@hp-gb:~$ cd ~/Animals
 - mn@hp-gb:~/Animals$ mv mans_friends ~/Animalss
@@ -44,6 +44,7 @@ _________
 - mn@hp-gb:~/Animalss$
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
+![]()
 4. Установить и удалить deb-пакет с помощью dpkg.
 5. Выложить историю команд в терминале ubuntu
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
