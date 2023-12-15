@@ -1,0 +1,254 @@
+mn@hp-gb:~/Animalss$ history
+    1  sudo apt update
+    2  clear
+    3  sudo apt install mc
+    4  mc
+    5  clear
+    6  sudo apt install openss
+    7  sudo apt install openssh-server
+    8  ip a
+    9  clear
+   10  systemctl status ssh
+   11  sudo apt update
+   12  sudo apt install gcc make perl
+   13  mc
+   14  exit
+   15  ip a
+   16  systemctl status ssh
+   17  ip a
+   18  mc
+   17  ip a
+   18  mc
+   19  clear
+   20  sudo apt update
+   21  sudo apt install gcc make perl
+   22  sudo reboot
+   23  sudo usermod -aG vboxsf mn
+   24  exit
+   25  cd /home
+   26  sudo su
+   27  cd
+   28  cd /
+   29  cd ~
+   30  ls -al
+   31  cd /proc
+   32  ls -al
+   33  cat cpuinfo
+   34  cd /dev
+   35  ls -al
+   36  clear
+   37  cd /run
+   38  ls
+   39  cd
+   40  mkdir test
+   41  ls -al
+   42  mkdir -p 1/2/3/4/5
+   43  cd 1
+   44  cd 2
+   45  cd 3
+   46  cd 4
+   47  ll
+   48  cd ~/test
+   49  ll
+   50  cat > testfile
+   51  ll
+   52  cp testfile test2
+   53  ll
+   54  cd ..
+   55  ll
+   56  cp -r test test2
+   57  ll
+   58  cd test2
+   59  ll
+   60  cd
+   61  mv test test3
+   62  ll
+   63  cd test2
+   64  ll
+   65  rm test2
+   66  ll
+   67  cd
+   68  rm -rf test2
+   69  ll
+   70  clear
+   71  cd test3/
+   72  ll
+   73  touch testt
+   74  ll
+   75  cat testfile test2 > test_all
+   76  ll
+   77  cat test_all
+   78  cd /
+   79  ll
+   80  cd /home/mn
+   81  cd /
+   82  cd home
+   83  cd mn
+   84  pwd
+   85  cd ~
+   86  cd ..
+   87  ../..
+   88  ls -al
+   89  cd
+   90  ll
+   91  cat ./.bash_logout
+   92  cd test3/
+   93  ll
+   94  ln test2 test_ln
+   95  ll
+   96  cat >> test_ln
+   97  ll
+   98  ln -s test2 test_lns
+   99  ll
+  100  ls -ali
+  101  cd
+  102  vim
+  103  sudo apt install vim
+  104  cd test3
+  105  vim test2
+  106  cd
+  107  cat > testfile
+  108  cat > testfile2
+  109  cat testfile2 >> testfile
+  110  ln -al
+  111  ll
+  112  ls -al
+  113  mv testfile renamed-file
+  114  ll
+  115  mv renamed-file file
+  116  ll
+  117  cat > testfile3
+  118  clear
+  119  touch test1 test2
+  120  ll
+  121  mkdir dir
+  122  ll
+  123  mv testfile3 dir/
+  124  ll
+  125  mv testfile* dir/
+  126  mv test* dir/
+  127  ll
+  128  rm -r
+  129  rm --help
+  130  rm -r
+  131  cd dir/
+  132  ll
+  133  rm -r
+  134  rm --r
+  135  rm --recursive
+  136  rm: -r
+  137  rm
+  138  rm -r
+  139  rm -r dir
+  140  ll
+  141  cd
+  142  rm -r dir
+  143  ll
+  144  cat > file1
+  145  cd file1 file2
+  146  ll
+  147  rm -r file
+  148  rm -r test
+  149  cd file1 file2
+  150  cat > file2
+  151  cd file1 file2
+  152  cp file1 file2
+  153  ln -s file1 file3
+  154  ln file1 file4
+  155  ls -i file*
+  156  ls -i file2
+  157  rm file1
+  158  cat file2
+  159  cat file3
+  160  cat file4
+  161  mkdir dir2
+  162  mv file2 f2
+  163  mv file3 f3
+  164  mv file4 f4
+  165  ln -s f2 f4
+  166  ln -s f2 f3
+  167  mv file1 f1
+  168  mv f2 f3 f4 dir2/
+  169  ll
+  170  cd dir/
+  171  cd dir2/
+  172  ll
+  173  exit
+  174  sudo useradd -s /bin/bash -m -d /home/user1 user1
+  175  sudo adduser user2
+  176  sudo usermod -aG adm user1
+  177  sudo usermod -g www-data user1
+  178  sudo groupadd group1
+  179  sudo addgroup group2
+  180  su user1
+  181  su user2
+  182  sudo visudo
+  183  cd test
+  184  cd dir
+  185  cd test2
+  186  mkdir dir
+  187  cd dir
+  188  touch file1 file2
+  189  ll
+  190  sudo chmod u=rw,g=rw,o=r file1
+  191  sudo su
+  192  crontab -e
+  193  sudo su
+  194  sudo apt install docker.io
+  195  sudo docker
+  196  sudo su
+  197  sudo apt install docker.io docker-compose
+  198  sudo su
+  199  ls
+  200  echo $?
+  201  cat > ownersort.sh
+  202  nano
+  203  cat > ownersort.sh
+  204  nano
+  205  ll
+  206  chmod +x ownersort.sh
+  207  ./ownersort.sh
+  208  ./ownersort.sh /etc
+  209  cd var/log
+  210  var1 = text
+  211  cat > ownersort
+  212  nano ownersort
+  213  bash ownersort
+  214  nano ownersort.sh
+  215  bash ownersort.sh
+  216  nano ownersort.sh
+  217  bash ownersort.sh
+  218  mkdir p1
+  219  bash ownersort.sh
+  220  nano ownersort.sh
+  221  bash ownersort.sh
+  222  nano ownersort.sh
+  223  bash ownersort.sh
+  224  nano ownersort.sh
+  225  sudo su
+  226  mkdir Animals
+  227  cd ~/Animals
+  228  cat > pets
+  229  cat > pack_animals
+  230  cat pets pack_animals > animals
+  231  mv animals mans_friends
+  232  ls -ali
+  233  clear
+  234  cd ..
+  235  mkdir Animalss
+  236  cd ~/Animals
+  237  mv mans_friends ~/Animalss
+  238  cd ~/Animalss
+  239  ls -ali
+  240  sudo wget https://github.com/mysql/mysql-server
+  241  sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb
+  242  sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+  243  sudo apt-get update
+  244  sudo apt-get install mysql-server
+  245  ls
+  246  sudo wget  https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+  247  sudo dpkg -i docker-ce-cli_20.10.133-0ubuntu-jammy_amd64.deb
+  248  sudo dpkg -r docker-ce-cli
+  249  sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb
+  250  sudo dpkg -r mysql-apt-config_0.8.23-1_all.deb
+  251  history
