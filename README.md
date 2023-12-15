@@ -28,7 +28,7 @@ mn@hp-gb:~/Animals$ cat pets pack_animals > animals
 mn@hp-gb:~/Animals$ mv animals mans_friends
 mn@hp-gb:~/Animals$ mn@hp-gb:~/Animals$ ls -ali
 
-![](C:\Users\user\Desktop\Гикбреинс\итог\Animal-nursery "1.png")
+![](https://github.com/MelnikNYU/Animal-nursery/blob/main/1.png) 
 
 2. Создать директорию, переместить файл туда.
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
