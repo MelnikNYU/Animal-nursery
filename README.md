@@ -218,30 +218,30 @@ SELECT * FROM yang_animal;
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
 
-SELECT d.Name, d.Birthday, d.Commands, do.Name, ya.Age_in_month 
-FROM dogs d
-LEFT JOIN yang_animal ya ON ya.Name = do.Name
-LEFT JOIN pets do ON d.Id = d.Animal_id
-UNION
-SELECT c.Name, c.Birthday, c.Commands, ca.Name, ya.Age_in_month 
-FROM cats c
-LEFT JOIN yang_animal ya ON ya.Name = c.Name
-LEFT JOIN pets do ON do.Id = c.Animal_id
-UNION
-SELECT hm.Name, hm.Birthday, hm.Commands, do.Name, ya.Age_in_month 
-FROM hamsters hm
-LEFT JOIN yang_animal ya ON ya.Name = hm.Name
-LEFT JOIN pets do ON do.Id = hm.Animal_id;
-UNION
-SELECT h.Name, h.Birthday, h.Commands, pa.Name, ya.Age_in_month 
-FROM horses h
-LEFT JOIN yang_animal ya ON ya.Name = h.Name
-LEFT JOIN pack_animals pa ON pa.Id = h.Animal_id
-UNION 
-SELECT d.Name, d.Birthday, d.Commands, pa.Name, ya.Age_in_month 
-FROM donkeys d 
-LEFT JOIN yang_animal ya ON ya.Name = d.Name
-LEFT JOIN pack_animals pa ON pa.Id = d.Animal_id'
+- SELECT d.Name, d.Birthday, d.Commands, do.Name, ya.Age_in_month 
+- FROM dogs d
+- LEFT JOIN yang_animal ya ON ya.Name = do.Name
+- LEFT JOIN pets do ON do.Id = d.Animal_id
+- UNION
+- SELECT c.Name, c.Birthday, c.Commands, do.Name, ya.Age_in_month 
+- FROM cats c
+- LEFT JOIN yang_animal ya ON ya.Name = c.Name
+- LEFT JOIN pets do ON do.Id = c.Animal_id
+- UNION
+- SELECT hm.Name, hm.Birthday, hm.Commands, do.Name, ya.Age_in_month 
+- FROM hamsters hm
+- LEFT JOIN yang_animal ya ON ya.Name = hm.Name
+- LEFT JOIN pets do ON do.Id = hm.Animal_id;
+- UNION
+- SELECT h.Name, h.Birthday, h.Commands, pa.Name, ya.Age_in_month 
+- FROM horses h
+- LEFT JOIN yang_animal ya ON ya.Name = h.Name
+- LEFT JOIN pack_animals pa ON pa.Id = h.Animal_id
+- UNION 
+- SELECT d.Name, d.Birthday, d.Commands, pa.Name, ya.Age_in_month 
+- FROM donkeys d 
+- LEFT JOIN yang_animal ya ON ya.Name = d.Name
+- LEFT JOIN pack_animals pa ON pa.Id = d.Animal_id'
 
 13.Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
 14. Написать программу, имитирующую работу реестра домашних животных.
